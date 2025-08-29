@@ -24,7 +24,7 @@ const medicineRoutes = require("./routes/medicineRoutes.js");
 const appointmentRoutes = require("./routes/appointmentRoutes.js");
 const notificationRoutes = require("./routes/notificationRoutes.js");
 
-app.use("/test", (req, res) => res.send("<h1>This is a test API</h1>"));
+app.use("/test", (req, res) => res.send("<h1>This is a test API29082025-v2</h1>"));
 app.use("/api/doctors", doctorRouter);
 app.use("/api/receptionists", receptionistRoutes);
 app.use("/api/patients", patientRoutes);
